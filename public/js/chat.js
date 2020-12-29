@@ -20,7 +20,7 @@ const {username, room} = Qs.parse(location.search, { ignoreQueryPrefix: true })
 
 const autoscroll = () => {
     $messages.scrollTop = $messages.scrollHeight
-    }
+
     //New message element
     // const $newMessage = $messages.lastElementChild
 
